@@ -4,7 +4,7 @@ const { students } = require("./options")
 
 const bot = new TelegramBot(token, { polling: true })
 
-const password = "nazoratchi"
+const password = "qwerty"
 
 
 bot.on("message", async (msg) => {
